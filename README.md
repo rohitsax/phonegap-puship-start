@@ -1,25 +1,16 @@
 # Hello World PhoneGap Application
 
-> A Hello World application built with PhoneGap
+> A Hello World application supporting Puship service built with PhoneGap
 
 ## Usage
 
-### Desktop
+### Phonegap Online Build
 
-In your browser, open the file:
-
-    /www/index.html
+Fork this project than paste the URL of the freshly created project in the open-source tab in the Phoengap Online Build Dashboard. Scan the barcode with your smartphone to download the application on your device then run it. 
 
 ### PhoneGap CLI
 
-This repository is automatically downloaded by [phonegap-cli][phonegap-cli-url]
-when you create a new application.
-
-### PhoneGap Build
-
-Create a new app with the following repository:
-
-    https://github.com/Puship/phonegap-puship-start.git
+Follow the guide on the Phoegap CLI tab of [Puship documentation][puship-documentation]
 
 ## Contributors
 
@@ -42,4 +33,5 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 
 [phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
 [cordova-app]: http://github.com/apache/cordova-app-hello-world
+[puship-documentation]: http://www.puship.com/documentations/platform-setup/
 
