@@ -1,4 +1,4 @@
-# Hello World PhoneGap Application
+# Hello World PhoneGap Application with Push Notification support from Puship.com
 
 > A Hello World application supporting Puship service built with PhoneGap
 
