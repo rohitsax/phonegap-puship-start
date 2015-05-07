@@ -30,13 +30,34 @@
         <title>Hello World</title>
     </head>
     <body>
+		<!-- <p><span>queue lenght: </span><span id="positionqueue">0</span></p>
+		<p><span>time in second: </span><span id="positionqueuetime">0</span></p> -->
+		
         <div class="app">
-            <h1>PhoneGap</h1>
+            <h1>Puship Demo</h1>
+			<p>This application is only created for puship service demostration.</p>
+			<p>Go to <a href="http://puship.com/?page_id=35" >Puship administration panel</a> for send push notification to this application,</p>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
+			<br>
+
+			<input type="button" onclick="app.getPush()" value="Get last Push" />
+			<input type="button" onclick="app.getPushByCurrentPosition()" value="Get last Push by current position" />
+			<input type="button" onclick="app.getPushByLibra()" value="Get last Push by tag Libra" />
+			<input type="button" onclick="app.getPushByDevice()" value="Get last Push by current device" />
+			<input type="button" onclick="app.addLibraFilter()" value="Add Libra filter" />
+			<input type="button" onclick="app.addVirgoFilter()" value="Add Virgo filter" />
+			<input type="button" onclick="app.removeFilter()" value="Remove Libra filter" />
+			<input type="button" onclick="app.clearFilters()" value="Clear filters" />
+			<input type="button" onclick="app.getFilters()" value="Get filters" />
+			<input type="button" onclick="app.registerPositionEvent();" value="Register position" />
+			<input type="button" onclick="app.activateWatch();" value="Activate Watch position" />
+			<input type="button" onclick="app.deActivateWatch();" value="DeActivate Watch position" />
+			
         </div>
+		<p><span id="logp"></span></p>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
