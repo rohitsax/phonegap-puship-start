@@ -134,12 +134,6 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-		<resource-file src="www/sound1.mp3" />
-		<resource-file src="/www/sound1.mp3" />
-		<resource-file src="www/res/sound1.mp3" />
-		<resource-file src="www/res/sounds/sound1.mp3" />
-		<resource-file src="sound1.mp3" />
-		<resource-file src="/res/sound1.mp3" />
     </platform>
 
 </widget>
