@@ -16,6 +16,7 @@
         Puship Team
     </author>
 
+	<asset src="www/res" target="res" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
