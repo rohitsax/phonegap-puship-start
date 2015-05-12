@@ -16,7 +16,6 @@
         Puship Team
     </author>
 
-	<asset src="sound1.mp3" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -135,6 +134,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+		<resource-file src="sound1.mp3" />
     </platform>
 
 </widget>
