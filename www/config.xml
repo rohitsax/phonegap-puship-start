@@ -16,6 +16,8 @@
         Puship Team
     </author>
 
+<access origin="http://puship.cloudapp.net" />
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
